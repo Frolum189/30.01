@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+</head>
+<body>
+<button onclick="button()">Тыкай!</button>
+<style>
+    body {
+        text-align: center;
+        padding: 50px;
+    }
+    button {
+        background-color: rgb(0, 189, 133);
+        color: black;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+        box-shadow: 0px 0px 20px 5px rgba(227, 255, 0, 0.59);
+        width: 140px;
+        align-items: center;
+    }
+</style>
+<script>
+    function button() {
+        var but = '#' + Math.floor(Math.random() * 1000);
+        document.body.style.backgroundColor = but;
+        console.log(but)
+    }
+</script>
+</body>
+</html>
