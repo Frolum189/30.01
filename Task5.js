@@ -4,7 +4,7 @@ if (answer === 'да') {
     console.log('Правильно!');
 
 }
-if (answer === 'нет') {
+else if (answer === 'нет') {
     console.log('Нет, Солнце — это звезда.');
 
 } else {
