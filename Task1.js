@@ -4,7 +4,7 @@ if (age >= 18) {
     console.log('Хорошо');
 }
 
-if (age < 18) {
+else if (age < 18) {
     console.log('Несовершеннолетним не продаём');
 }
 else{
